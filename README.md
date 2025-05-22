@@ -30,7 +30,8 @@ DBPassword=password
  
  systemctl enable zabbix-server zabbix-agent apache2
 
-ССЫЛКА: https://github.com/Padawan18/zabbix/blob/main/Рисунок1.png
+
+![ 1](https://github.com/Padawan18/zabbix/blob/main/Рисунок1.png)
 
 Задание 2
 Установите Zabbix Agent на два хоста.
@@ -59,13 +60,13 @@ nano /etc/zabbix/zabbix_agentd.conf
  
 ![ указание активного сервера zabbix](https://github.com/Padawan18/zabbix/blob/main/Рисунок2.png)
 
-  https://github.com/Padawan18/zabbix/blob/main/Рисунок3.png  указание серверов
- 
-  https://github.com/Padawan18/zabbix/blob/main/Рисунок4.png - проверка статуса агента
+ ![указание серверов](https://github.com/Padawan18/zabbix/blob/main/Рисунок3.png )
+   
+ ![проверка статуса агента](https://github.com/Padawan18/zabbix/blob/main/Рисунок4.png)
   
-  https://github.com/Padawan18/zabbix/blob/main/Рисунок5.png - логи заббикс агента
+  ![логи заббикс агента]( https://github.com/Padawan18/zabbix/blob/main/Рисунок5.png)
   
-  https://github.com/Padawan18/zabbix/blob/main/Рисунок6.png - список хостов
+  ![список хостов](  https://github.com/Padawan18/zabbix/blob/main/Рисунок6.png)
  
 
 
