@@ -56,6 +56,7 @@ nano /etc/zabbix/zabbix_agentd.conf
  systemctl restart zabbix-agent
  
  systemctl enable zabbix-agent
+ 
 https://github.com/Padawan18/zabbix/blob/main/Рисунок2.png - указание активного сервера zabbix
 
   https://github.com/Padawan18/zabbix/blob/main/Рисунок3.png  указание серверов
