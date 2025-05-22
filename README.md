@@ -1,4 +1,4 @@
-Задание 1
+#**Задание 1
 Установите Zabbix Server с веб-интерфейсом.
 
 Процесс выполнения
@@ -8,34 +8,33 @@
 Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 Команды:
 
-wget https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.2+ubuntu24.04_all.deb
+1.wget https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.2+ubuntu24.04_all.deb
 
-dpkg -i zabbix-release_latest_7.2+ubuntu24.04_all.deb
+2.dpkg -i zabbix-release_latest_7.2+ubuntu24.04_all.deb
 
-apt update
+3.apt update
 
-apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+4.apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
 
-sudo -u postgres createuser --pwprompt zabbix
+5.sudo -u postgres createuser --pwprompt zabbix
 
-sudo -u postgres createdb -O zabbix zabbix
+6.sudo -u postgres createdb -O zabbix zabbix
 
-zcat /usr/share/zabbix/sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+7.zcat /usr/share/zabbix/sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
 
-nano /etc/zabbox/zabbix_server.conf
+8.nano /etc/zabbox/zabbix_server.conf
 
-DBPassword=password
+9.DBPassword=password
 
- systemctl restart zabbix-server zabbix-agent apache2
+10.systemctl restart zabbix-server zabbix-agent apache2
  
- systemctl enable zabbix-server zabbix-agent apache2
+11.systemctl enable zabbix-server zabbix-agent apache2
 
 
 ![ 1](https://github.com/Padawan18/zabbix/blob/main/Рисунок1.png)
 
-Задание 2
+#**Задание 2
 Установите Zabbix Agent на два хоста.
-
 Процесс выполнения
 Выполняя ДЗ, сверяйтесь с процессом отражённым в записи лекции.
 Установите Zabbix Agent на 2 вирт.машины, одной из них может быть ваш Zabbix Server.
@@ -44,19 +43,19 @@ DBPassword=password
 Проверьте, что в разделе Latest Data начали появляться данные с добавленных агентов.
 
 Команды:
-wget https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.2+ubuntu24.04_all.deb
+1. wget https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.2+ubuntu24.04_all.deb
 
- dpkg -i zabbix-release_latest_7.2+ubuntu24.04_all.deb
+2. dpkg -i zabbix-release_latest_7.2+ubuntu24.04_all.deb
  
- apt update
+3. apt update
  
- apt install zabbix-agent
+4. apt install zabbix-agent
  
-nano /etc/zabbix/zabbix_agentd.conf
+5. nano /etc/zabbix/zabbix_agentd.conf
 
- systemctl restart zabbix-agent
+6. systemctl restart zabbix-agent
  
- systemctl enable zabbix-agent
+7. systemctl enable zabbix-agent
  
 ![ указание активного сервера zabbix](https://github.com/Padawan18/zabbix/blob/main/Рисунок2.png)
 
