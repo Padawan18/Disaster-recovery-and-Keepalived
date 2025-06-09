@@ -11,7 +11,7 @@
 На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
  
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/pic)
 
 
 
