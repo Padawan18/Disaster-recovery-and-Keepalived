@@ -16,6 +16,7 @@
 Файл   https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/finish.pkt
 
 #Задание 2
+
 Запустите две виртуальные машины Linux, установите и настройте сервис Keepalived как в лекции, используя пример конфигурационного файла.
 
 Настройте любой веб-сервер (например, nginx или simple python server) на двух виртуальных машинах
