@@ -56,6 +56,23 @@ vrrp_instance VI_1 {
 }
 
 ```
+
+### Bash-скрипт
+
+```
+#!/bin/bash
+
+if ! nc -z localhost 80; then
+    exit 1
+fi
+if [ ! -f "/var/www/html/index.html" ]; then
+    exit 1
+fi
+
+exit 0
+```
+
+
 ### keepalive для резервного серввера
 ```
 vrrp_instance VI_1 {
