@@ -29,7 +29,7 @@
 
 На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
-### keepalive
+### Код для главного серввера
 
 ```
 vrrp_script check_web_server {
@@ -56,3 +56,17 @@ vrrp_instance VI_1 {
 }
 
 ```
+
+```vrrp_instance VI_1 {
+        state BACKUP
+        interface eth0
+        virtual_router_id 15
+        priority 200
+        advert_int 1
+
+
+        virtual_ipaddress {
+              192.168.0.15/24
+        }
+```
+
