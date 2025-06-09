@@ -57,7 +57,8 @@ vrrp_instance VI_1 {
 
 ```
 
-```vrrp_instance VI_1 {
+```
+vrrp_instance VI_1 {
         state BACKUP
         interface eth0
         virtual_router_id 15
