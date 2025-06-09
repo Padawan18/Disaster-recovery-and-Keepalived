@@ -69,5 +69,6 @@ vrrp_instance VI_1 {
         virtual_ipaddress {
               192.168.0.15/24
         }
+}
 ```
 
