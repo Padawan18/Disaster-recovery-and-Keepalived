@@ -71,4 +71,7 @@ vrrp_instance VI_1 {
         }
 }
 ```
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/serv1.png)
 
+
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/serv2.png)
