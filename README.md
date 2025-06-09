@@ -28,8 +28,10 @@
 секцию vrrp_script
 
 На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
+##keepalive#
 
-```vrrp_script check_web_server {
+```
+vrrp_script check_web_server {
        script "./keepalive_script_for_nginx"
        interval 3
 }
