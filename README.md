@@ -13,8 +13,5 @@
  
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/pic)
 
-
-
- 
-
+Файл   https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/finish.pkt
 
