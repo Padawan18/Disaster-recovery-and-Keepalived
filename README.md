@@ -92,3 +92,6 @@ vrrp_instance VI_1 {
 
 
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/serv2.png)
+
+### nginx на основном сервере не запущен
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/nginx.png)
