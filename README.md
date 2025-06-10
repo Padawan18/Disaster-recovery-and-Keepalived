@@ -12,6 +12,8 @@
  
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/request)
 
+### Config haproxy
+
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/haproxy.png)
 
 # Задание 2
