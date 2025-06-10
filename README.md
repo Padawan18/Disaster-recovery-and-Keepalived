@@ -8,7 +8,7 @@
 
 На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
  
-![alt text]()
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/request)
 
 
 # Задание 2
