@@ -33,3 +33,7 @@ HAproxy должен балансировать только тот http-тра�
 ### Запрос с доменным именем
 
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/curl_task2.png)
+
+### Запрос без доменного имени
+
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/task2_without_fqns.png)
