@@ -16,6 +16,10 @@
 
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/haproxy.png)
 
+### Статистика
+
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/stats.png)
+
 # Задание 2
 
 
