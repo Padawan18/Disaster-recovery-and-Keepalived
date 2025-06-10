@@ -37,3 +37,7 @@ HAproxy должен балансировать только тот http-тра�
 ### Запрос без доменного имени
 
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/task2_without_fqns.png)
+
+### Happroxy конфиг
+
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/task2_happroxy.png)
