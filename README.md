@@ -37,4 +37,4 @@ HAproxy должен балансировать только тот http-тра�
 
 ### Happroxy конфиг
 
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/happroxy2.png)
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/happroxy.png)
