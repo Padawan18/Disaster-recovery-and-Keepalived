@@ -12,6 +12,7 @@
  
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/request)
 
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/haproxy.png)
 
 # Задание 2
 
