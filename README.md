@@ -32,9 +32,9 @@ HAproxy должен балансировать только тот http-тра�
 
 ### Запрос с доменным именем и без
 
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/config.png)
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/happroxy.png)
 
 
 ### Happroxy конфиг
 
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/happroxy.png)
+![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/config.png)
