@@ -9,5 +9,5 @@
 На проверку направить скриншот с командой и результатом ее выполнения
 
  
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/request)
+![alt text](https://github.com/Padawan18/Happroxy/blob/main/rsynс.png)
 
