@@ -25,5 +25,9 @@
 
 На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
+### bash-script
+![alt text](https://github.com/Padawan18/rsync/blob/main/bash_rsync.png)
+
+
 ### Crontab
 ![alt text](https://github.com/Padawan18/rsync/blob/main/crontab.png)
