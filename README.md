@@ -1,40 +1,13 @@
 # Задание 1
 
-Запустите два simple python сервера на своей виртуальной машине на разных портах
+Составьте команду rsync, которая позволяет создавать зеркальную копию домашней директории пользователя в директорию /tmp/backup
 
-Установите и настройте HAProxy, воспользуйтесь материалами к лекции по ссылке
+Необходимо исключить из синхронизации все директории, начинающиеся с точки (скрытые)
 
-Настройте балансировку Round-robin на 4 уровне.
+Необходимо сделать так, чтобы rsync подсчитывал хэш-суммы для всех файлов, даже если их время модификации и размер идентичны в источнике и приемнике.
 
-На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
- 
- ### Запросы 
+На проверку направить скриншот с командой и результатом ее выполнения
+
  
 ![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/request)
 
-### Config haproxy
-
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/haproxy.png)
-
-### Статистика
-
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/stats.png)
-
-# Задание 2
-
-Запустите три simple python сервера на своей виртуальной машине на разных портах
-
-Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
-
-HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
-
-На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
-
-### Запрос с доменным именем и без
-
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/curl2.png)
-
-
-### Happroxy конфиг
-
-![alt text](https://github.com/Padawan18/Disaster-recovery-and-Keepalived/blob/main/config.png)
