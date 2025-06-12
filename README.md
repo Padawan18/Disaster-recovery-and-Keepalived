@@ -8,6 +8,7 @@
 
 На проверку направить скриншот с командой и результатом ее выполнения
 
+## Вывод rsync
  
 ![alt text](https://github.com/Padawan18/Happroxy/blob/main/rsynс.png)
 
