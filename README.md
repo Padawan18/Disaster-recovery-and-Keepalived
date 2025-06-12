@@ -8,7 +8,7 @@
 
 На проверку направить скриншот с командой и результатом ее выполнения
 
-## Вывод rsync
+### Вывод rsync
  
 ![alt text](https://github.com/Padawan18/Happroxy/blob/main/rsynс.png)
 
@@ -24,3 +24,6 @@
 Резервная копия размещается локально, в директории /tmp/backup
 
 На проверку направить файл crontab и скриншот с результатом работы утилиты.
+
+### Crontab
+![alt text](https://github.com/Padawan18/Happroxy/blob/main/crontab.png)
