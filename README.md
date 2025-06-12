@@ -31,3 +31,7 @@
 
 ### Crontab
 ![alt text](https://github.com/Padawan18/rsync/blob/main/crontab.png)
+
+### syslog
+
+![alt text](https://github.com/Padawan18/rsync/blob/main/syslog.png)
