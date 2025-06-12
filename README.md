@@ -10,7 +10,7 @@
 
 ### Вывод rsync
  
-![alt text](https://github.com/Padawan18/Happroxy/blob/main/rsynс.png)
+![alt text](https://github.com/Padawan18/rsync/blob/main/rsynс.png)
 
 
 #Задание 2
@@ -26,4 +26,4 @@
 На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
 ### Crontab
-![alt text](https://github.com/Padawan18/Happroxy/blob/main/crontab.png)
+![alt text](https://github.com/Padawan18/rsync/blob/main/crontab.png)
